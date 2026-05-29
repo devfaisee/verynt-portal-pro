@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO Optimization -->
+  <title>Verynt Pro - 100% Offline Private AI & Media Utilities Sandbox</title>
+  <meta name="description" content="Access premium AI transcription, background removal, photo upscaling, object erasing, and video compression tools right inside your browser. 100% private with no server uploads.">
+  <meta name="keywords" content="browser ai, client-side tools, private transcription, background remover, heic converter, video compressor, svg vectorizer, offiline utilities">
+  
+  <!-- FontAwesome & Custom CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="header-container">
+      <div class="brand">
+        <i class="fa-solid fa-microchip"></i>
+        Verynt Pro
+        <span class="brand-badge">Sandbox Suite</span>
+      </div>
+      <div class="nav-right">
+        <div class="privacy-shield" title="Every utility in this suite processes files directly inside your browser memory. Your private documents, voices, and photos never touch a cloud server.">
+          <i class="fa-solid fa-shield-halved"></i>
+          <span>Zero Server Uploads</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-glow"></div>
+    <h1>Premium AI & Media Utilities<br>Running 100% in Your Browser</h1>
+    <p>Enjoy blazing fast WebGPU and WebAssembly performance with absolute privacy. No accounts, no watermarks, no upload limits, and zero cloud latency.</p>
+    
+    <div class="highlights">
+      <div class="highlight-item">
+        <i class="fa-solid fa-bolt"></i>
+        <span>Client-side WebGPU</span>
+      </div>
+      <div class="highlight-item">
+        <i class="fa-solid fa-cloud-slash"></i>
+        <span>100% Offline Capability</span>
+      </div>
+      <div class="highlight-item">
+        <i class="fa-solid fa-circle-dollar-to-slot"></i>
+        <span>Always Free & Sandbox Secure</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portal Tools Workspace -->
+  <main class="portal-container">
+    
+    <div class="grid-header">
+      <h2 class="grid-title">
+        <i class="fa-solid fa-cubes-stacked"></i>
+        Professional Utility Modules
+      </h2>
+      <span class="grid-count">12 Tools Available</span>
+    </div>
+
+    <!-- The 12-Tool Dashboard Grid -->
+    <div class="tools-grid">
+      
+      <!-- 1. Private Scribe Pro -->
+      <a href="https://scribe.verynt.com" class="tool-card" onclick="event.preventDefault(); alert('Redirecting to: scribe.verynt.com\nThis is your fully compiled Whisper Speech-to-Text and Notes Pro editor running locally on port 3000!');">
+        <div class="tool-header">
+          <div class="tool-icon-box">
+            <i class="fa-solid fa-microphone-lines"></i>
+          </div>
+          <span class="tech-tag webgpu">WebGPU / WASM</span>
+        </div>
+        <h3>Private Scribe Pro</h3>
+        <p>Convert meetings, audio files, or voice dictations into high-precision text instantly. Restructure raw transcripts using smart client-side recipes.</p>
+        <div class="tool-footer">
+          <span class="privacy-badge"><i class="fa-solid fa-shield"></i> 100% Private</span>
+          <span class="launch-action">Launch Tool <i class="fa-solid fa-arrow-right-long"></i></span>
+        </div>
+      </a>
+
+      <!-- 2. AI Object Eraser Pro -->
+      <a href="https://eraser.verynt.com" class="tool-card" onclick="event.preventDefault(); alert('Subdomain: eraser.verynt.com\nRuns an ONNX inpainting network directly in browser to erase objects, text, or watermarks.');">
+        <div class="tool-header">
+          <div class="tool-icon-box">
+            <i class="fa-solid fa-wand-magic-sparkles"></i>
+          </div>
+          <span class="tech-tag webgpu">WebGPU</span>
+        </div>
+        <h3>AI Object Eraser Pro</h3>
+        <p>Simply paint over people, objects, blemishes, or text in any photo to erase them. Seamlessly blends backgrounds without server uploads.</p>
+        <div class="tool-footer">
+          <span class="privacy-badge"><i class="fa-solid fa-shield"></i> 100% Private</span>
+          <span class="launch-action">Launch Tool <i class="fa-solid fa-arrow-right-long"></i></span>
+        </div>
+      </a>
+
+      <!-- 3. Smart PNG/JPG Vectorizer Pro -->
+      <a href="https://vector.verynt.com" class="tool-card" onclick="event.preventDefault(); alert('Subdomain: vector.verynt.com\nExecutes local WASM Potrace to convert pixel graphics to scalable SVG paths.');">
+        <div class="tool-header">
+          <div class="tool-icon-box">
+            <i class="fa-solid fa-compass-drafting"></i>
+          </div>
+          <span class="tech-tag wasm">WebAssembly</span>
+        </div>
+        <h3>Smart Vectorizer Pro</h3>
+        <p>Convert raster logos, drawings, and PNG/JPEG graphics into clean, resolution-independent SVG vector layers instantly.</p>
+        <div class="tool-footer">
+          <span class="privacy-badge"><i class="fa-solid fa-shield"></i> 100% Private</span>
+          <span class="launch-action">Launch Tool <i class="fa-solid fa-arrow-right-long"></i></span>
+        </div>
+      </a>
+
+      <!-- 4. Photo Upscaler & Restorer Pro -->
+      <a href="https://enhance.verynt.com" class="tool-card" onclick="event.preventDefault(); alert('Subdomain: enhance.verynt.com\nApplies Mobile-ESRGAN super-resolution weights via ONNX Runtime Web.');">
+        <div class="tool-header">
+          <div class="tool-icon-box">
+            <i class="fa-solid fa-maximize"></i>
+          </div>
+          <span class="tech-tag webgpu">WebGPU</span>
+        </div>
+        <h3>Photo Upscaler Pro</h3>
+        <p>Upscale low-resolution, pixelated, or blurry pictures up to 4K. Restores facial clarity and color balances family photos locally.</p>
+        <div class="tool-footer">
+          <span class="privacy-badge"><i class="fa-solid fa-shield"></i> 100% Private</span>
+          <span class="launch-action">Launch Tool <i class="fa-solid fa-arrow-right-long"></i></span>
+        </div>
+      </a>
+
+      <!-- 5. Vocal Separator Pro -->
+      <a href="https://vocal.verynt.com" class="tool-card" onclick="event.preventDefault(); alert('Subdomain: vocal.verynt.com\nIsolates song channels client-side to generate clean backing instrumentals and acapellas.');">
+        <div class="tool-header">
+          <div class="tool-icon-box">
+            <i class="fa-solid fa-guitar"></i>
+          </div>
+          <span class="tech-tag webgpu">WebGPU / WASM</span>
+        </div>
+        <h3>Vocal Separator Pro</h3>
+        <p>Isolate voice channels and musical elements from audio files. Instantly download clean vocals and isolated karaoke backing tracks.</p>
+        <div class="tool-footer">
+          <span class="privacy-badge"><i class="fa-solid fa-shield"></i> 100% Private</span>
+          <span class="launch-action">Launch Tool <i class="fa-solid fa-arrow-right-long"></i></span>
+        </div>
+      </a>
+
+      <!-- 6. AI Voiceover Pro -->
+      <a href="https://voice.verynt.com" class="tool-card" onclick="event.preventDefault(); alert('Subdomain: voice.verynt.com\nCompiles text to speech recordings offline using local voice synthesis engines.');">
+        <div class="tool-header">
+          <div class="tool-icon-box">
+            <i class="fa-solid fa-volume-high"></i>
+          </div>
+          <span class="tech-tag thread">Local Thread</span>
+        </div>
+        <h3>AI Voiceover Pro</h3>
+        <p>Convert scripts, PDFs, or articles into human-like speech files. Download voice recordings for presentations, podcasts, or video scripts.</p>
+        <div class="tool-footer">
+          <span class="privacy-badge"><i class="fa-solid fa-shield"></i> 100% Private</span>
+          <span class="launch-action">Launch Tool <i class="fa-solid fa-arrow-right-long"></i></span>
+        </div>
+      </a>
+
+      <!-- 7. Background Remover Pro -->
+      <a href="https://bg.verynt.com" class="tool-card" onclick="event.preventDefault(); alert('Subdomain: bg.verynt.com\nApplies high-speed image segmentation using RMBG-1.4 network weights directly in-browser.');">
+        <div class="tool-header">
+          <div class="tool-icon-box">
+            <i class="fa-solid fa-image-portrait"></i>
+          </div>
+          <span class="tech-tag webgpu">WebGPU</span>
+        </div>
+        <h3>Background Remover Pro</h3>
+        <p>Instantly extract the subject of any portrait or product image. Download clean, transparent PNG files in milliseconds.</p>
+        <div class="tool-footer">
+          <span class="privacy-badge"><i class="fa-solid fa-shield"></i> 100% Private</span>
+          <span class="launch-action">Launch Tool <i class="fa-solid fa-arrow-right-long"></i></span>
+        </div>
+      </a>
+
+      <!-- 8. Document OCR Grabber Pro -->
+      <a href="https://ocr.verynt.com" class="tool-card" onclick="event.preventDefault(); alert('Subdomain: ocr.verynt.com\nRuns local Tesseract OCR engine in worker thread to pull text out of files.');">
+        <div class="tool-header">
+          <div class="tool-icon-box">
+            <i class="fa-solid fa-text-width"></i>
+          </div>
+          <span class="tech-tag thread">Local Thread</span>
+        </div>
+        <h3>Document OCR Pro</h3>
+        <p>Scan and extract text from pictures of book pages, screenshots, receipts, or contracts. Supports full multi-language indexing.</p>
+        <div class="tool-footer">
+          <span class="privacy-badge"><i class="fa-solid fa-shield"></i> 100% Private</span>
+          <span class="launch-action">Launch Tool <i class="fa-solid fa-arrow-right-long"></i></span>
+        </div>
+      </a>
+
+      <!-- 9. Smart SVG Logo Generator Pro -->
+      <a href="https://svg.verynt.com" class="tool-card" onclick="event.preventDefault(); alert('Subdomain: svg.verynt.com\nCompiles pixel-perfect responsive vector graphical badges using interactive canvas layout selectors.');">
+        <div class="tool-header">
+          <div class="tool-icon-box">
+            <i class="fa-solid fa-palette"></i>
+          </div>
+          <span class="tech-tag memory">Client Memory</span>
+        </div>
+        <h3>Smart SVG Logo Pro</h3>
+        <p>Create clean, scalable vector logos, badges, and icon graphics. Adjust parameters dynamically and export raw, editable SVG code.</p>
+        <div class="tool-footer">
+          <span class="privacy-badge"><i class="fa-solid fa-shield"></i> 100% Private</span>
+          <span class="launch-action">Launch Tool <i class="fa-solid fa-arrow-right-long"></i></span>
+        </div>
+      </a>
+
+      <!-- 10. Offline Media Compressor Pro -->
+      <a href="https://compress.verynt.com" class="tool-card" onclick="event.preventDefault(); alert('Subdomain: compress.verynt.com\nLaunches FFmpeg WebAssembly modules in background worker to transcode videos locally.');">
+        <div class="tool-header">
+          <div class="tool-icon-box">
+            <i class="fa-solid fa-file-video"></i>
+          </div>
+          <span class="tech-tag wasm">WebAssembly</span>
+        </div>
+        <h3>Media Compressor Pro</h3>
+        <p>Shrink large video (MP4/MKV) or audio (MP3) files to optimized sizes. Perfect for sharing via email or chat without server-side overhead.</p>
+        <div class="tool-footer">
+          <span class="privacy-badge"><i class="fa-solid fa-shield"></i> 100% Private</span>
+          <span class="launch-action">Launch Tool <i class="fa-solid fa-arrow-right-long"></i></span>
+        </div>
+      </a>
+
+      <!-- 11. Smart PDF Multi-Tool Pro -->
+      <a href="https://pdf.verynt.com" class="tool-card" onclick="event.preventDefault(); alert('Subdomain: pdf.verynt.com\nManipulates PDF document trees locally in client memory using pdf-lib package.');">
+        <div class="tool-header">
+          <div class="tool-icon-box">
+            <i class="fa-solid fa-file-pdf"></i>
+          </div>
+          <span class="tech-tag memory">Client Memory</span>
+        </div>
+        <h3>Smart PDF Toolkit Pro</h3>
+        <p>Merge separate PDFs, split pages, compress file sizes, rotate documents, and apply signatures safely without server-side processing.</p>
+        <div class="tool-footer">
+          <span class="privacy-badge"><i class="fa-solid fa-shield"></i> 100% Private</span>
+          <span class="launch-action">Launch Tool <i class="fa-solid fa-arrow-right-long"></i></span>
+        </div>
+      </a>
+
+      <!-- 12. Universal Image Converter Pro -->
+      <a href="https://convert.verynt.com" class="tool-card" onclick="event.preventDefault(); alert('Subdomain: convert.verynt.com\nDecodes raw HEIC structures using libheif WASM modules, outputting JPGs instantly.');">
+        <div class="tool-header">
+          <div class="tool-icon-box">
+            <i class="fa-solid fa-arrow-right-arrow-left"></i>
+          </div>
+          <span class="tech-tag wasm">WebAssembly</span>
+        </div>
+        <h3>Image Converter Pro</h3>
+        <p>Convert image formats in milliseconds. Instantly convert HEIC to JPG, WebP to PNG, or SVG to JPEG fully inside your local sandbox.</p>
+        <div class="tool-footer">
+          <span class="privacy-badge"><i class="fa-solid fa-shield"></i> 100% Private</span>
+          <span class="launch-action">Launch Tool <i class="fa-solid fa-arrow-right-long"></i></span>
+        </div>
+      </a>
+
+    </div>
+
+    <!-- Premium Native Display Ad Placement Showcase -->
+    <div class="portal-ad-banner">
+      <div class="ad-banner-info">
+        <div class="ad-banner-logo">
+          <i class="fa-solid fa-bolt"></i>
+        </div>
+        <div>
+          <div style="font-weight: 700; color: var(--text-main); margin-bottom: 0.15rem;">FastHost Cloud Solutions</div>
+          <div style="font-size: 0.75rem;">Scale your static web portal traffic instantly. SSD static hosting from $0/month.</div>
+        </div>
+      </div>
+      <a href="#" class="ad-banner-link" onclick="event.preventDefault(); alert('Premium display ad banner showcase. Since Verynt Pro operates with 100% browser-based execution, your server costs remain absolute zero. High-quality ad spaces like this turn your organic traffic directly into pure net cash.');">Visit Sponsor &rarr;</a>
+    </div>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-container">
+      <span class="footer-text">&copy; 2026 Verynt Pro Sandbox Suite. Powered by WebGPU & WebAssembly. All Rights Reserved.</span>
+      <div class="footer-links">
+        <a href="#" onclick="event.preventDefault(); alert('100% Client-Side Privacy: Every operation on this site runs inside your local browser memory space. We do not use databases, track uploads, or have backends. Your data never leaves your device.');">Privacy Policy</a>
+        <a href="#" onclick="event.preventDefault(); alert('Unlimited Sandbox Use: This utility suite is provided completely free of charge without sign-up limits, advertising watermarks, or account walls.');">Terms of Service</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
