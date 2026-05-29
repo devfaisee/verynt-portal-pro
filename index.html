@@ -18,9 +18,19 @@
   <!-- Header -->
   <header>
     <div class="header-container">
-      <div class="brand">
-        <i class="fa-solid fa-microchip"></i>
-        Verynt Pro
+      <div class="brand" style="display: flex; align-items: center; gap: 0.75rem;">
+        <svg class="brand-logo-svg" width="36" height="36" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" style="filter: drop-shadow(0 0 8px rgba(139, 92, 246, 0.55)); transition: transform 0.3s ease;">
+          <defs>
+            <linearGradient id="logo-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#8B5CF6" />
+              <stop offset="100%" stop-color="#06B6D4" />
+            </linearGradient>
+          </defs>
+          <polygon points="50,5 90,27 90,73 50,95 10,73 10,27" stroke="url(#logo-grad)" stroke-width="8" fill="rgba(124, 92, 246, 0.05)" />
+          <path d="M50,22 L75,37 L75,63 L50,78 L25,63 L25,37 Z" fill="url(#logo-grad)" opacity="0.85" />
+          <polygon points="50,38 58,45 58,55 50,62 42,55 42,45" fill="#ffffff" />
+        </svg>
+        <span style="font-weight: 750; font-size: 1.5rem; letter-spacing: -0.75px; background: linear-gradient(135deg, #ffffff 40%, #a5b4fc 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Verynt Pro</span>
         <span class="brand-badge">Sandbox Suite</span>
       </div>
       <div class="nav-right">
@@ -69,7 +79,7 @@
     <div class="tools-grid">
       
       <!-- 1. Private Scribe Pro -->
-      <a href="https://scribe.verynt.com" class="tool-card" onclick="event.preventDefault(); alert('Redirecting to: scribe.verynt.com\nThis is your fully compiled Whisper Speech-to-Text and Notes Pro editor running locally on port 3000!');">
+      <a href="https://private-scribe-pro.vercel.app" class="tool-card" target="_blank" rel="noopener noreferrer">
         <div class="tool-header">
           <div class="tool-icon-box">
             <i class="fa-solid fa-microphone-lines"></i>
@@ -85,7 +95,7 @@
       </a>
 
       <!-- 2. AI Object Eraser Pro -->
-      <a href="https://eraser.verynt.com" class="tool-card" onclick="event.preventDefault(); alert('Subdomain: eraser.verynt.com\nRuns an ONNX inpainting network directly in browser to erase objects, text, or watermarks.');">
+      <a href="https://object-eraser-pro.vercel.app" class="tool-card" target="_blank" rel="noopener noreferrer">
         <div class="tool-header">
           <div class="tool-icon-box">
             <i class="fa-solid fa-wand-magic-sparkles"></i>
@@ -101,7 +111,7 @@
       </a>
 
       <!-- 3. Smart PNG/JPG Vectorizer Pro -->
-      <a href="https://vector.verynt.com" class="tool-card" onclick="event.preventDefault(); alert('Subdomain: vector.verynt.com\nExecutes local WASM Potrace to convert pixel graphics to scalable SVG paths.');">
+      <a href="https://image-vectorizer-pro.vercel.app" class="tool-card" target="_blank" rel="noopener noreferrer">
         <div class="tool-header">
           <div class="tool-icon-box">
             <i class="fa-solid fa-compass-drafting"></i>
@@ -117,7 +127,7 @@
       </a>
 
       <!-- 4. Photo Upscaler & Restorer Pro -->
-      <a href="https://enhance.verynt.com" class="tool-card" onclick="event.preventDefault(); alert('Subdomain: enhance.verynt.com\nApplies Mobile-ESRGAN super-resolution weights via ONNX Runtime Web.');">
+      <a href="https://photo-enhancer-pro.vercel.app" class="tool-card" target="_blank" rel="noopener noreferrer">
         <div class="tool-header">
           <div class="tool-icon-box">
             <i class="fa-solid fa-maximize"></i>
@@ -133,7 +143,7 @@
       </a>
 
       <!-- 5. Vocal Separator Pro -->
-      <a href="https://vocal.verynt.com" class="tool-card" onclick="event.preventDefault(); alert('Subdomain: vocal.verynt.com\nIsolates song channels client-side to generate clean backing instrumentals and acapellas.');">
+      <a href="https://vocal-separator-pro.vercel.app" class="tool-card" target="_blank" rel="noopener noreferrer">
         <div class="tool-header">
           <div class="tool-icon-box">
             <i class="fa-solid fa-guitar"></i>
@@ -149,7 +159,7 @@
       </a>
 
       <!-- 6. AI Voiceover Pro -->
-      <a href="https://voice.verynt.com" class="tool-card" onclick="event.preventDefault(); alert('Subdomain: voice.verynt.com\nCompiles text to speech recordings offline using local voice synthesis engines.');">
+      <a href="https://speech-generator-pro.vercel.app" class="tool-card" target="_blank" rel="noopener noreferrer">
         <div class="tool-header">
           <div class="tool-icon-box">
             <i class="fa-solid fa-volume-high"></i>
@@ -165,7 +175,7 @@
       </a>
 
       <!-- 7. Background Remover Pro -->
-      <a href="https://bg.verynt.com" class="tool-card" onclick="event.preventDefault(); alert('Subdomain: bg.verynt.com\nApplies high-speed image segmentation using RMBG-1.4 network weights directly in-browser.');">
+      <a href="https://background-remover-pro.vercel.app" class="tool-card" target="_blank" rel="noopener noreferrer">
         <div class="tool-header">
           <div class="tool-icon-box">
             <i class="fa-solid fa-image-portrait"></i>
@@ -181,7 +191,7 @@
       </a>
 
       <!-- 8. Document OCR Grabber Pro -->
-      <a href="https://ocr.verynt.com" class="tool-card" onclick="event.preventDefault(); alert('Subdomain: ocr.verynt.com\nRuns local Tesseract OCR engine in worker thread to pull text out of files.');">
+      <a href="https://ocr-grabber-pro.vercel.app" class="tool-card" target="_blank" rel="noopener noreferrer">
         <div class="tool-header">
           <div class="tool-icon-box">
             <i class="fa-solid fa-text-width"></i>
@@ -197,7 +207,7 @@
       </a>
 
       <!-- 9. Smart SVG Logo Generator Pro -->
-      <a href="https://svg.verynt.com" class="tool-card" onclick="event.preventDefault(); alert('Subdomain: svg.verynt.com\nCompiles pixel-perfect responsive vector graphical badges using interactive canvas layout selectors.');">
+      <a href="https://svg-generator-pro.vercel.app" class="tool-card" target="_blank" rel="noopener noreferrer">
         <div class="tool-header">
           <div class="tool-icon-box">
             <i class="fa-solid fa-palette"></i>
@@ -213,7 +223,7 @@
       </a>
 
       <!-- 10. Offline Media Compressor Pro -->
-      <a href="https://compress.verynt.com" class="tool-card" onclick="event.preventDefault(); alert('Subdomain: compress.verynt.com\nLaunches FFmpeg WebAssembly modules in background worker to transcode videos locally.');">
+      <a href="https://media-compressor-pro.vercel.app" class="tool-card" target="_blank" rel="noopener noreferrer">
         <div class="tool-header">
           <div class="tool-icon-box">
             <i class="fa-solid fa-file-video"></i>
@@ -229,7 +239,7 @@
       </a>
 
       <!-- 11. Smart PDF Multi-Tool Pro -->
-      <a href="https://pdf.verynt.com" class="tool-card" onclick="event.preventDefault(); alert('Subdomain: pdf.verynt.com\nManipulates PDF document trees locally in client memory using pdf-lib package.');">
+      <a href="https://pdf-toolkit-pro.vercel.app" class="tool-card" target="_blank" rel="noopener noreferrer">
         <div class="tool-header">
           <div class="tool-icon-box">
             <i class="fa-solid fa-file-pdf"></i>
@@ -245,7 +255,7 @@
       </a>
 
       <!-- 12. Universal Image Converter Pro -->
-      <a href="https://convert.verynt.com" class="tool-card" onclick="event.preventDefault(); alert('Subdomain: convert.verynt.com\nDecodes raw HEIC structures using libheif WASM modules, outputting JPGs instantly.');">
+      <a href="https://image-converter-pro.vercel.app" class="tool-card" target="_blank" rel="noopener noreferrer">
         <div class="tool-header">
           <div class="tool-icon-box">
             <i class="fa-solid fa-arrow-right-arrow-left"></i>
@@ -273,7 +283,7 @@
           <div style="font-size: 0.75rem;">Scale your static web portal traffic instantly. SSD static hosting from $0/month.</div>
         </div>
       </div>
-      <a href="#" class="ad-banner-link" onclick="event.preventDefault(); alert('Premium display ad banner showcase. Since Verynt Pro operates with 100% browser-based execution, your server costs remain absolute zero. High-quality ad spaces like this turn your organic traffic directly into pure net cash.');">Visit Sponsor &rarr;</a>
+      <a href="#" class="ad-banner-link" onclick="event.preventDefault(); openModal('Sponsor Solutions', 'FastHost provides bleeding-edge, high-bandwidth static web portals. Since Verynt Pro operates 100% in browser memory with zero backend databases or server costs, organic traffic generated through sponsor placements translates directly to pure passive net profits.', 'fa-solid fa-cubes-stacked');">Visit Sponsor &rarr;</a>
     </div>
 
   </main>
@@ -283,11 +293,49 @@
     <div class="footer-container">
       <span class="footer-text">&copy; 2026 Verynt Pro Sandbox Suite. Powered by WebGPU & WebAssembly. All Rights Reserved.</span>
       <div class="footer-links">
-        <a href="#" onclick="event.preventDefault(); alert('100% Client-Side Privacy: Every operation on this site runs inside your local browser memory space. We do not use databases, track uploads, or have backends. Your data never leaves your device.');">Privacy Policy</a>
-        <a href="#" onclick="event.preventDefault(); alert('Unlimited Sandbox Use: This utility suite is provided completely free of charge without sign-up limits, advertising watermarks, or account walls.');">Terms of Service</a>
+        <a href="#" onclick="event.preventDefault(); openModal('Privacy & Protection', '100% Client-Side Integrity: Every operation in Verynt Pro runs entirely inside your local browser memory space via WebGPU and WebAssembly. We do not use servers, databases, analytics cookies, or logs. Your documents, voices, and photos never leave your device.', 'fa-solid fa-user-shield');">Privacy Policy</a>
+        <a href="#" onclick="event.preventDefault(); openModal('Terms of Service', 'Sandbox Guarantee: This utility suite is provided completely free of charge. There are no registration forms, upload restrictions, time limitations, or subscription walls. Enjoy private, local utility hosting.', 'fa-solid fa-file-contract');">Terms of Service</a>
       </div>
     </div>
   </footer>
+
+  <!-- Premium Glassmorphic Modal -->
+  <div id="info-modal" class="modal-overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(7, 7, 10, 0.85); backdrop-filter: blur(16px); z-index: 1000; align-items: center; justify-content: center; opacity: 0; transition: opacity 0.3s ease;">
+    <div class="modal-card" style="background: rgba(15, 23, 42, 0.65); border: 1px solid rgba(255, 255, 255, 0.1); box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5); backdrop-filter: blur(16px); border-radius: 16px; padding: 2.5rem; max-width: 500px; width: 90%; text-align: center; transform: scale(0.9); transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);">
+      <div class="modal-icon" style="font-size: 3rem; background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin-bottom: 1.5rem;">
+        <i id="modal-icon-inner" class="fa-solid fa-circle-info"></i>
+      </div>
+      <h3 id="modal-title" style="font-size: 1.5rem; font-weight: 700; color: #ffffff; margin-bottom: 1rem;">Information</h3>
+      <p id="modal-body-text" style="font-size: 0.95rem; color: #cbd5e1; line-height: 1.6; margin-bottom: 2rem;"></p>
+      <button onclick="closeModal()" class="modal-close-btn" style="background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%); color: #ffffff; border: none; padding: 0.75rem 2rem; font-weight: 650; font-size: 0.9rem; border-radius: 9999px; cursor: pointer; box-shadow: 0 0 15px rgba(124, 58, 237, 0.4); transition: transform 0.2s ease, box-shadow 0.2s ease;">Close Window</button>
+    </div>
+  </div>
+
+  <script>
+    function openModal(title, text, iconClass) {
+      const modal = document.getElementById('info-modal');
+      const innerCard = modal.querySelector('.modal-card');
+      document.getElementById('modal-title').innerText = title;
+      document.getElementById('modal-body-text').innerText = text;
+      document.getElementById('modal-icon-inner').className = iconClass || 'fa-solid fa-circle-info';
+      
+      modal.style.display = 'flex';
+      setTimeout(() => {
+        modal.style.opacity = '1';
+        innerCard.style.transform = 'scale(1)';
+      }, 10);
+    }
+    
+    function closeModal() {
+      const modal = document.getElementById('info-modal');
+      const innerCard = modal.querySelector('.modal-card');
+      modal.style.opacity = '0';
+      innerCard.style.transform = 'scale(0.9)';
+      setTimeout(() => {
+        modal.style.display = 'none';
+      }, 300);
+    }
+  </script>
 
 </body>
 </html>
